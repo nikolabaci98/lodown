@@ -54,7 +54,7 @@ get_catalog_nychvs <-
 					
 				# construct the url of the SAS importation script #
 				
-				if( year < 2014 ){
+				if( year < 2017 ){
 				
 					# massive thanx to http://furmancenter.org for providing these.
 					sas_script <- system.file("extdata", paste( "nychvs/furman/hvs" , subyear , filetype , "load.sas" , sep = "_" ) , package = "lodown")
