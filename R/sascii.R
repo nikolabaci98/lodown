@@ -1,5 +1,5 @@
 SAS.uncomment <- 
-function( SASinput , starting.comment , ending.comment ){
+	function( SASinput , starting.comment , ending.comment ){
 
 	#remove /* */
 	for ( i in 1:length(SASinput) ){
